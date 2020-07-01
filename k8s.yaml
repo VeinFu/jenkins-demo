@@ -4,14 +4,12 @@ metadata:
   name: jenkins-demo
   namespace: default
 spec:
-  selector:
-    matchLabels:
-      app: jenkins-demo
   template:
     metadata:
       labels:
         app: jenkins-demo
     spec:
+      restartPolicy: OnFailure
       containers:
       - image: vienfu/jenkins-demo:<BUILD_TAG>
         imagePullPolicy: IfNotPresent
