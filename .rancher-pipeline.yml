@@ -1,4 +1,4 @@
-﻿stages:
+stages:
 - name: 单元测试
   steps:
   - runScriptConfig:
