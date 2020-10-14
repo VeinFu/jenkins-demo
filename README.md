@@ -1,2 +1,2 @@
 # jenkins-demo
-just a demo project for jenkins-ci
+just a demo project for testing jenkins-ci
